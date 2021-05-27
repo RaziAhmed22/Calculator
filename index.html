@@ -11,40 +11,42 @@
 		<div class="infoContainer">
 			<span>calc</span>
 			<div class="themeToggle">
-				<span>Theme</span>
-				<input type="range" name="themeVal" min="1" max="3">
+				<div>
+					<span>Theme</span>
+					<input class="slider" type="range" name="themeVal" min="1" max="3">
+				</div>
 			</div>
 		</div>
 
 		<div class="valueContainer">
-			<input type="text" name="valueInput">
+			<input type="text"  maxlength="17" name="valueInput">
 		</div>
 
 		<div class="inputContainer">
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button>del</button>
+		      <button>7</button>
+		      <button>8</button>
+		      <button>9</button>
+		      <button class="specialColor" id="extra">del</button>
       
-	    <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button>+</button>
+			  <button>4</button>
+		      <button>5</button>
+		      <button>6</button>
+		      <button>+</button>
   
 
-			 <button>3</button>
-      <button>2</button>
-      <button>1</button>
-      <button>-</button>
+			  <button>3</button>
+		      <button>2</button>
+		      <button>1</button>
+		      <button>-</button>
 
-			 <button>.</button>
-      <button>0</button>
-      <button>/</button>
-      <button>x</button>
+			  <button>.</button>
+		      <button>0</button>
+		      <button>/</button>
+		      <button>x</button>
 
-			<buuton>Reset</button>
-			<button>=</button>
-
+			  <button  id="special1">Reset</button>
+			  <button  id="special2">=</button>
+			  
 		</div>
 
   </div>
