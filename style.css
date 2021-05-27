@@ -17,6 +17,18 @@ body{
 	margin-top:10%;*/
 	margin: auto;
 	margin-top: 7%;
+
+	padding: 10px;
+	display:grid;
+	/*align-items: center;
+	justify-content: center;*/
+	grid-template-rows:1fr 2fr auto; 
+	grid-template-columns: 1fr; 
+	gap:10px;
+	
+	margin-left:40%;
+	margin-right: 40%;
+	margin-top:10%;
 }
 
 .mainContainer div {
@@ -82,6 +94,12 @@ body{
 	padding: 10px;
 	border:0;
 	background-color:#181F32;
+
+	width: 90%;
+	height: 90%;
+	padding: 10px;
+	border:0;
+	background-color:#252C46;
 	border-radius: 5px;
 	color: white;
 	font-weight: bold;
@@ -125,3 +143,9 @@ body{
 
 /*EXTRA*/
 #extra{background-color:#636F96;color: white;}
+
+	grid-template-rows:25% 25% 25% 25%;
+	grid-template-columns:25% 25% 25% 25%;
+
+}
+
