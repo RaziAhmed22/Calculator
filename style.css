@@ -165,15 +165,15 @@ body{
 	font-size:1.4em;
 	background-color:#EAE3DB;
 	border-bottom: 5px solid silver;
-	/*box-shadow: 0px 0px 1px #B6A89F;*/
+	box-shadow: 0px 0px 1px #B6A89F;
 	padding: 5px;
-}
+}*/
 
 
 
 
 /**********CODE FOR THEME 3*/
-#special1_3{grid-column-start: 1;grid-column-end:3;background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
+/*#special1_3{grid-column-start: 1;grid-column-end:3;background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
 #special2_3{grid-column-start: 3;grid-column-end:5;background-color: #D13F30;color: white;border-bottom: 5px solid #692018;}
 #extra_3{background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
 
@@ -201,6 +201,6 @@ body{
 	font-size:1.4em;
 	background-color:#EAE3DB;
 	border-bottom: 5px solid silver;
-	/*box-shadow: 0px 0px 1px #B6A89F;*/
+	box-shadow: 0px 0px 1px #B6A89F;
 	padding: 5px;
 }*/
