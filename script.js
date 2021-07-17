@@ -2,6 +2,9 @@ var nums = document.querySelectorAll('button')
 var valueInput=document.getElementById("valueInput");
 var l=[];
 
+// for theme selector 
+var vSlider = document.getElementById("range"); 
+
 
 const displayInput = (val)=>{
 	 // valueInput.insertAdjacentHTML("beforeend",val)
@@ -76,4 +79,40 @@ nums.forEach((element,i) =>{
 		 	
 	})
 })
+
+
+
+//changing theme .....whats the best way to do this? 
+
+// const themeChanger = () =>{
+
+// 	switch(vSlider.value){
+// 			case 1: ctheme("#160628",); break;
+// 			case 2: ;break;
+// 			case 3: ;break;
+// 	}
+// }
+
+
+
+// const ctheme = (bodyColor,letters,inputColors,mContainer,b,bShadow,sB,sBShadow,sB2,sBShadown2) =>{
+	
+// 	let body    = document.body();
+// 	let input   = document.getElementById('InputNumbersBox');
+// 	let buttons = document.getElementByTagName('button');
+// 	//extra and special1 have the same style .....special2 is the one that differ
+// 	let sButton      = document.getElementById('extra');
+// 	let sButton2     = document.getElementById('special2');
+
+// 	//special buttons letters are different from body letters colors
+// 	//change class to attribute new style to HTML elements
+
+// 	body.style.background = bodyColor;
+
+
+
+
+// }
+
+
 

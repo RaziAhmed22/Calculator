@@ -37,7 +37,60 @@
 		      <button>2</button>
 		      <button>1</button>
 		      <button>-</button>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator Challenge</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="mainContainer">
+		<div class="infoContainer">
+			<span>calc</span>
+			<div class="themeToggle">
+				<div>
+					<span>Theme</span>
+					<input class="slider" onchange="themeChanger()" id="range" type="range" name="themeVal" min="1" max="3">
+				</div>
+			</div>
+		</div>
 
+		<div class="valueContainer">
+			<input type="text"  id="InputNumbersBox" maxlength="17" name="valueInput" id="valueInput">
+		</div>
+
+		<div class="inputContainer">
+		      <button>9</button>
+		      <button>8</button>
+		      <button>7</button>
+		      <button class="specialColor" id="extra">del</button>
+      
+			 <button>6</button>
+		      <button>5</button>
+		      <button>4</button>
+		      <button>+</button>
+  
+
+			 <button>3</button>
+		      <button>2</button>
+		      <button>1</button>
+		      <button>-</button>
+
+			 <button>.</button>
+		      <button>0</button>
+		      <button>/</button>
+		      <button>x</button>
+
+			 <button  id="special1">Reset</button>
+			 <button  id="special2">=</button>
+			  
+		</div>
+
+  </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
 			 <button>.</button>
 		      <button>0</button>
 		      <button>/</button>

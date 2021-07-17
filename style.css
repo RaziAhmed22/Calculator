@@ -95,10 +95,10 @@ body{
 
 .inputContainer{
 	display: grid;
-	gap:10px;
-	justify-content: space-between;
-	padding:20px;
-	padding-bottom: 50px;
+	gap:15px;
+	justify-content: space-around;
+	padding:50px;
+	padding-bottom: 100px;
 	background-color:#252D44;
 	border-radius: 5px;
 	grid-template-rows:20% 20% 20% 20%;
@@ -113,13 +113,94 @@ body{
 	border-radius: 5px;
 	font-size:1.4em;
 	background-color:#EAE3DB;
+	border-bottom: 5px solid silver;
 	/*box-shadow: 0px 0px 1px #B6A89F;*/
-	padding: 10px;
+	padding: 5px;
 }
 
-.inputContainer #special1{grid-column-start: 1;grid-column-end:3;background-color:#636F96;color: white;}
-.inputContainer #special2{grid-column-start: 3;grid-column-end:5;background-color: #D13F30;color: white;}
 
+.inputContainer #special1{grid-column-start: 1;grid-column-end:3;background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
+.inputContainer #special2{grid-column-start: 3;grid-column-end:5;background-color: #D13F30;color: white;border-bottom: 5px solid #692018;}
 
 /*EXTRA*/
-#extra{background-color:#636F96;color: white;}
+#extra{background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
+
+
+
+
+
+
+
+
+
+/*only need some changes in colors*/
+
+/**********CODE FOR THEME 2*/
+/*#special1_2{grid-column-start: 1;grid-column-end:3;background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
+#special2_2{grid-column-start: 3;grid-column-end:5;background-color: #D13F30;color: white;border-bottom: 5px solid #692018;}
+#extra_2{background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
+
+
+.slider_2::-webkit-range-thumb{background-color: #D13F30;border:0;}
+.slider_2::-moz-range-thumb{background-color: #D13F30;border:0;}
+
+.inputContainer_2{
+	display: grid;
+	gap:15px;
+	justify-content: space-around;
+	padding:50px;
+	padding-bottom: 100px;
+	background-color:#252D44;
+	border-radius: 5px;
+	grid-template-rows:20% 20% 20% 20%;
+	grid-template-columns:24% 24% 24% 24%;	
+}
+
+.inputContainer_2 button{
+	cursor: pointer;
+	font-weight: bold;
+	color:#666;
+	border:0;
+	border-radius: 5px;
+	font-size:1.4em;
+	background-color:#EAE3DB;
+	border-bottom: 5px solid silver;
+	/*box-shadow: 0px 0px 1px #B6A89F;
+	padding: 5px;
+}*/
+
+
+
+
+/**********CODE FOR THEME 3*/
+/*#special1_3{grid-column-start: 1;grid-column-end:3;background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
+#special2_3{grid-column-start: 3;grid-column-end:5;background-color: #D13F30;color: white;border-bottom: 5px solid #692018;}
+#extra_3{background-color:#636F96;color: white;border-bottom: 5px solid #4B5471;}
+
+.slider::-webkit-range-thumb{background-color: #D13F30;border:0;}
+.slider::-moz-range-thumb{background-color: #D13F30;border:0;}
+*//*
+.inputContainer_3{
+	display: grid;
+	gap:15px;
+	justify-content: space-around;
+	padding:50px;
+	padding-bottom: 100px;
+	background-color:#252D44;
+	border-radius: 5px;
+	grid-template-rows:20% 20% 20% 20%;
+	grid-template-columns:24% 24% 24% 24%;	
+}
+
+.inputContainer_3 button{
+	cursor: pointer;
+	font-weight: bold;
+	color:#666;
+	border:0;
+	border-radius: 5px;
+	font-size:1.4em;
+	background-color:#EAE3DB;
+	border-bottom: 5px solid silver;
+	/*box-shadow: 0px 0px 1px #B6A89F;*/
+	/*padding: 5px;*/
+/*}*/
