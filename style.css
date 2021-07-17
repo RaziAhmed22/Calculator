@@ -98,11 +98,13 @@ body{
 	gap:15px;
 	justify-content: space-around;
 	padding:50px;
-	padding-bottom: 100px;
 	background-color:#252D44;
 	border-radius: 5px;
-	grid-template-rows:20% 20% 20% 20%;
-	grid-template-columns:24% 24% 24% 24%;	
+/*	grid-template-rows:20% 20% 20% 20%;
+	grid-template-columns:24% 24% 24% 24%;	*/
+	/*instead of using percentage use these values below....so i wont need to use padding-bottom*/
+	grid-template-rows: repeat(5,1fr);
+	grid-template-columns: repeat(4,1fr);
 }
 
 .inputContainer button{
